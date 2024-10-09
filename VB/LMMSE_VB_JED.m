@@ -1,4 +1,4 @@
-% Stable version of LMMSE-QVB for joint channel estimation and data detection
+% Stable version of LMMSE-VB for joint channel estimation and data detection
 % @ Developed by Duy Nguyen, duy.nguyen@sdsu.com
 % Please cite the following paper if you use the code
 % 1) Duy H. N. Nguyen, Italo Atzeni, Antti Tölli, A Lee Swindlehurst, "A Variational Bayesian Perspective on Massive MIMO Detection," 
