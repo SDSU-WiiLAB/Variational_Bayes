@@ -1,7 +1,7 @@
 % Stable implementation of LMMSE-VB
 % @ Developed by Duy Nguyen, duy.nguyen@sdsu.com
 % Please cite the following paper if you use the code
-% Duy HN Nguyen, Italo Atzeni, Antti Tölli, A Lee Swindlehurst, "A Variational Bayesian Perspective on Massive MIMO Detection", arXiv preprint arXiv:2205.11649.
+% Duy H. N. Nguyen, Italo Atzeni, Antti Tölli, A. Lee Swindlehurst, "A Variational Bayesian Perspective on Massive MIMO Detection", arXiv preprint arXiv:2205.11649.
 % https://arxiv.org/pdf/2205.11649
 function [x_est, q, z, noise_var] = LMMSE_VB(par, H, y)
 K = par.K;
