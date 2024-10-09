@@ -1,3 +1,11 @@
+% Stable version of LMMSE-QVB for joint channel estimation and data detection
+% @ Developed by Duy Nguyen, duy.nguyen@sdsu.com
+% Please cite the following paper if you use the code
+% 1) Duy H. N. Nguyen, Italo Atzeni, Antti Tölli, A Lee Swindlehurst, "A Variational Bayesian Perspective on Massive MIMO Detection," 
+% arXiv preprint arXiv:2205.11649. https://arxiv.org/pdf/2205.11649
+% 2) Ly V. Nguyen, A Lee Swindlehurst, Duy H. N. Nguyen, "Variational Bayes for joint channel estimation and data detection in few-bit massive MIMO systems,"
+% IEEE Transactions on Signal Processing, July 2024. DOI: 10.1109/TSP.2024.3429009
+
 % opt_lite: default as 'lite'
 % Here R: 3D matrix with R(:,:,i) is the covariance matrix for channel h_i
 function [X_est, Q, H_] = LMMSE_VB_JED(par, Yd, Yp, Xp, C, opt_lite)
